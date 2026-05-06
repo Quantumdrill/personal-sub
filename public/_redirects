@@ -1,3 +1,5 @@
 /theCookiePilgrimage/assets/* /theCookiePilgrimage/assets/:splat 200
+
 /theCookiePilgrimage/* /theCookiePilgrimage/ 200
+
 /* / 200

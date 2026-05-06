@@ -118,8 +118,8 @@ onMounted(() => {
     
     loadCharSkm("NekomimiRightArmRef", nrar, modelLoader)
 
-    nekomimi.textures.smile  = texLoader.load(`./public/assets/imgs/Nekomimi_smile.png`)
-    nekomimi.textures.angry = texLoader.load(`./public/assets/imgs/Nekomimi_angry.png`)
+    nekomimi.textures.smile  = texLoader.load(`/assets/imgs/Nekomimi_smile.png`)
+    nekomimi.textures.angry = texLoader.load(`/assets/imgs/Nekomimi_angry.png`)
 
     loadingManager.onLoad = () => {
         nekomimiLoadedInitializationCheck()

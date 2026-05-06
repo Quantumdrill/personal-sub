@@ -27,7 +27,7 @@ window.addEventListener("scroll", (e) => {
         <div class="block">
             <h2>The Broken Hyperlink</h2>
             <div class="blockContent">
-                <div class="blockImageContainer"><img class="blockImage" src="./public/assets/imgs/brokenHyperlink.png" ></div>
+                <div class="blockImageContainer"><img class="blockImage" src="/assets/imgs/brokenHyperlink.png" ></div>
                 <div class="blockText">
                     <p>A severed navigational artifact, formerly used to connect one location in the web space to another. Its destination is no longer preserved, leaving only the gesture of travel without the certainty of arrival.
 
@@ -48,13 +48,13 @@ It is commonly found in accounts of lower-page regions, abandoned footers, colla
 The artifact is usually interpreted as a sign of withheld space. It implies that knowledge may exist beyond the frame, not hidden by secrecy, but by distance, impatience, or neglect. To encounter the Hidden Scroll is to be reminded that the page continues even after attention has stopped.
                     <br><br>Like its name says, it's hidden so no one knows where it is.</p>
                 </div>
-                <div class="blockImageContainer"><img class="blockImage" src="./public/assets/imgs/scroll.png" ></div>
+                <div class="blockImageContainer"><img class="blockImage" src="/assets/imgs/scroll.png" ></div>
             </div>
         </div>
         <div class="block">
             <h2>The Holy Cookie</h2>
             <div class="blockContent">
-                <div class="blockImageContainer"><img class="blockImage" src="./public/assets/imgs/holyCookie.png" ></div>
+                <div class="blockImageContainer"><img class="blockImage" src="/assets/imgs/holyCookie.png" ></div>
                 <div class="blockText">
                     <p>A small ceremonial object associated with permission, recognition, and return. Though its material appears ordinary, the Holy Cookie is traditionally understood as a compact between visitor and site: once accepted, the presence of the guest may be remembered, recorded, and welcomed again.
 
@@ -76,7 +76,7 @@ Its questions are simple in form but unstable in meaning. Surviving examples ask
 Unlike locks, which require possession of a key, the Captcha requires performance. It asks the visitor to demonstrate perception, obedience, and a certain familiarity with the visible world. For this reason, it has often been read as one of the web space’s most peculiar rituals: a test of humanity conducted through machines.
                     <br><br>The Captcha is 20 thousand levels so no one ever solved it.</p>
                 </div>
-                <div class="blockImageContainer"><img class="blockImage" src="./public/assets/imgs/captcha.png" ></div>
+                <div class="blockImageContainer"><img class="blockImage" src="/assets/imgs/captcha.png" ></div>
             </div>
         </div>
         <Naoto id="naoto" :parentComponent="'stage1'" 

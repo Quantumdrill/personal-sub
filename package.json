@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && mkdir -p dist/theCookiePilgrimage && cd theCookiePilgrimage && npm install && npm run build && cp -r dist/* ../dist/theCookiePilgrimage/",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* overflow-y: scroll; */
+}
+
+h1, h2, p, div {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button{
+  padding: 0.5vw;
+}

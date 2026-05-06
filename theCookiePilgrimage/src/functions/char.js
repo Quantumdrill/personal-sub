@@ -6,7 +6,7 @@ import CustomEase from "gsap/CustomEase"
 gsap.registerPlugin(CustomEase)
 
 export function loadCharAnim(charname, animName, charObj, modelLoader){
-    modelLoader.load(`./src/assets/char/${charname}_anim_${animName}.fbx`, (loaded) => {
+    modelLoader.load(`${import.meta.env.BASE_URL}assets/char/${charname}_anim_${animName}.fbx`, (loaded) => {
         charObj.animClips[animName] = loaded.animations[0]
         for (const track of charObj.animClips[animName].tracks) { // removes interpolation for 8fps anim
             track.setInterpolation(THREE.InterpolateDiscrete)
@@ -14,7 +14,7 @@ export function loadCharAnim(charname, animName, charObj, modelLoader){
     })
 }
 export function loadCharSkm(charname, charObj, modelLoader){
-    modelLoader.load(`./src/assets/char/${charname}_skm.fbx`, (loaded) => {
+    modelLoader.load(`${import.meta.env.BASE_URL}assets/char/${charname}_skm.fbx`, (loaded) => {
         charObj.mesh = loaded
         loaded.children.forEach(child=>{
             if(child.isSkinnedMesh){
